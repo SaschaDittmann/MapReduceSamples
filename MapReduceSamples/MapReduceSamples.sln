@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Summarization", "01 Summarization", "{5E3D955C-202D-4820-85C9-93F25AF8424B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Filtering", "02 Filtering", "{F97287C9-BC8E-4EB0-8503-994B708E373B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Data Organization", "03 Data Organization", "{97EC2B36-895F-4CA6-9436-96489288B049}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Joining", "04 Joining", "{8B62CCB2-C7C1-43E6-AEB9-6A5C357694E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMaxCount", "MinMaxCount\MinMaxCount.csproj", "{BD6802AB-CC59-4EB6-A944-1FA48B0EAB60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapReduceSamples.Utils", "MapReduceSamples.Utils\MapReduceSamples.Utils.csproj", "{952E731F-EE7D-420A-91FD-6EB5422B7229}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{61A7B81F-53C2-41A2-B66D-CA27C5F5E1CD}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD6802AB-CC59-4EB6-A944-1FA48B0EAB60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6802AB-CC59-4EB6-A944-1FA48B0EAB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6802AB-CC59-4EB6-A944-1FA48B0EAB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6802AB-CC59-4EB6-A944-1FA48B0EAB60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{952E731F-EE7D-420A-91FD-6EB5422B7229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952E731F-EE7D-420A-91FD-6EB5422B7229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952E731F-EE7D-420A-91FD-6EB5422B7229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952E731F-EE7D-420A-91FD-6EB5422B7229}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD6802AB-CC59-4EB6-A944-1FA48B0EAB60} = {5E3D955C-202D-4820-85C9-93F25AF8424B}
+	EndGlobalSection
+EndGlobal
