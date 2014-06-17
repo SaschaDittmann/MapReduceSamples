@@ -1,15 +1,15 @@
 ﻿using Microsoft.Hadoop.MapReduce;
 
-namespace Average
+namespace MedianStdDev
 {
-    public class AverageJob : HadoopJob<AverageMapper, AverageReducer>
+    public class MedianStdDevJob : HadoopJob<MedianStdDevMapper, MedianStdDevReducer>
     {
         public override HadoopJobConfiguration Configure(ExecutorContext context)
         {
             return new HadoopJobConfiguration
             {
                 InputPath = "/samples/comments",
-                OutputFolder = "output/Average",
+                OutputFolder = "output/MedianStdDev"
             };
         }
     }

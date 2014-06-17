@@ -7,7 +7,7 @@ using Microsoft.Hadoop.MapReduce;
 
 namespace MapReduceSamples.Utils
 {
-    public class TestContext : MapperContext
+    public class TestMapperContext : MapperContext
     {
         public override void EmitKeyValue(string key, string value)
         {
