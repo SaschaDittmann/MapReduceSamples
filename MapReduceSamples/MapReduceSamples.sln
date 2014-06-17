@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{61A7B8
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Average", "Average\Average.csproj", "{5A06F307-F2A5-48A7-83AB-98D4C8A03255}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,11 +38,16 @@ Global
 		{952E731F-EE7D-420A-91FD-6EB5422B7229}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{952E731F-EE7D-420A-91FD-6EB5422B7229}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{952E731F-EE7D-420A-91FD-6EB5422B7229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A06F307-F2A5-48A7-83AB-98D4C8A03255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A06F307-F2A5-48A7-83AB-98D4C8A03255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A06F307-F2A5-48A7-83AB-98D4C8A03255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A06F307-F2A5-48A7-83AB-98D4C8A03255}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BD6802AB-CC59-4EB6-A944-1FA48B0EAB60} = {5E3D955C-202D-4820-85C9-93F25AF8424B}
+		{5A06F307-F2A5-48A7-83AB-98D4C8A03255} = {5E3D955C-202D-4820-85C9-93F25AF8424B}
 	EndGlobalSection
 EndGlobal
