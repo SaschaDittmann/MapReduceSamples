@@ -1,10 +1,10 @@
-﻿using Microsoft.Hadoop.MapReduce.Json;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using Microsoft.Hadoop.MapReduce.Json;
 
 namespace MinMaxCount
 {
-    public class MinMaxCountReducerCombiner : JsonInOutReducerCombinerBase<MinMaxCountData, MinMaxCountData>
+    public class MinMaxCountCombiner : JsonInOutReducerCombinerBase<MinMaxCountData, MinMaxCountData>
     {
         public override void Reduce(string key, IEnumerable<MinMaxCountData> values, JsonReducerCombinerContext<MinMaxCountData> context)
         {

@@ -58,7 +58,8 @@
     <Compile Include="MinMaxCountJob.cs" />
     <Compile Include="MinMaxCountMapper.cs" />
     <Compile Include="MinMaxCountData.cs" />
-    <Compile Include="MinMaxCountReducerCombiner.cs" />
+    <Compile Include="MinMaxCountReducer.cs" />
+    <Compile Include="MinMaxCountCombiner.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

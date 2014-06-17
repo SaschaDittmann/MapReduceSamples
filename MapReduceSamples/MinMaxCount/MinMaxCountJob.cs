@@ -2,7 +2,7 @@
 
 namespace MinMaxCount
 {
-    public class MinMaxCountJob : HadoopJob<MinMaxCountMapper, MinMaxCountReducerCombiner, MinMaxCountReducerCombiner>
+    public class MinMaxCountJob : HadoopJob<MinMaxCountMapper, MinMaxCountCombiner, MinMaxCountReducer>
     {
         public override HadoopJobConfiguration Configure(ExecutorContext context)
         {
