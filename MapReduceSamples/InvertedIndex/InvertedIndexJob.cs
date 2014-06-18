@@ -2,7 +2,7 @@
 
 namespace InvertedIndex
 {
-    public class InvertedIndexJob : HadoopJob<WikipediaExtractor, Concatenator>
+    public class InvertedIndexJob : HadoopJob<WikipediaExtractor, Concatenator, Concatenator>
     {
         public override HadoopJobConfiguration Configure(ExecutorContext context)
         {
