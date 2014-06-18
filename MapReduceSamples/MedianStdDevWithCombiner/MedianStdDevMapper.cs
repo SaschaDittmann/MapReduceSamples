@@ -13,14 +13,14 @@ namespace MedianStdDevWithCombiner
 
             if (parsed == null || !parsed.ContainsKey("CreationDate") || !parsed.ContainsKey("Text"))
             {
-                context.IncrementCounter("MinMaxCountMapper", "InvalidRows", 1);
+                context.IncrementCounter("MedianStdDevMapper", "InvalidRows", 1);
                 return;
             }
 
             DateTime creationDate;
             if (!DateTime.TryParse(parsed["CreationDate"], out creationDate))
             {
-                context.IncrementCounter("MinMaxCountMapper", "InvalidCreationDates", 1);
+                context.IncrementCounter("MedianStdDevMapper", "InvalidCreationDates", 1);
                 return;
             }
 
