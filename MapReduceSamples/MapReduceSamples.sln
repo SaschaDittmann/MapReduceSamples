@@ -44,6 +44,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopTen", "TopTen\TopTen.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distinct", "Distinct\Distinct.csproj", "{5D9D8070-7246-4AD0-B3BD-6C0AE4E4B480}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuredToHierarchical", "StructuredToHierarchical\StructuredToHierarchical.csproj", "{A78D62CC-B792-4941-904D-DEEF4D4ABB62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,6 +104,10 @@ Global
 		{5D9D8070-7246-4AD0-B3BD-6C0AE4E4B480}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D9D8070-7246-4AD0-B3BD-6C0AE4E4B480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D9D8070-7246-4AD0-B3BD-6C0AE4E4B480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78D62CC-B792-4941-904D-DEEF4D4ABB62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78D62CC-B792-4941-904D-DEEF4D4ABB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78D62CC-B792-4941-904D-DEEF4D4ABB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78D62CC-B792-4941-904D-DEEF4D4ABB62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,5 +125,6 @@ Global
 		{E033D545-5014-4FA7-AC86-B1B407B84B2B} = {F97287C9-BC8E-4EB0-8503-994B708E373B}
 		{72E7D9CB-237D-4065-BE1E-ED4E1508C91D} = {F97287C9-BC8E-4EB0-8503-994B708E373B}
 		{5D9D8070-7246-4AD0-B3BD-6C0AE4E4B480} = {F97287C9-BC8E-4EB0-8503-994B708E373B}
+		{A78D62CC-B792-4941-904D-DEEF4D4ABB62} = {97EC2B36-895F-4CA6-9436-96489288B049}
 	EndGlobalSection
 EndGlobal
