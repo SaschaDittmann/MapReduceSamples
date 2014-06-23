@@ -46,7 +46,7 @@ namespace MedianStdDevWithCombiner
             // calculate standard deviation
             var avg = sum / totalComments;
             var sumOfSquares = commentLengthCounts
-                .Sum(entry => (entry.Key - avg)*(entry.Key - avg)*entry.Value);
+                .Sum(entry => Math.Pow(entry.Key - avg, 2) * entry.Value);
             var stdDev = Math.Sqrt(sumOfSquares / (totalComments - 1));
 
             context.EmitKeyValue(
