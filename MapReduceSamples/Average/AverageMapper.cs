@@ -13,14 +13,14 @@ namespace Average
 
             if (parsed == null || !parsed.ContainsKey("CreationDate") || !parsed.ContainsKey("Text"))
             {
-                context.CoreContext.IncrementCounter("AverageMapper", "InvalidRows", 1);
+                context.CoreContext.IncrementCounter("Average Mapper", "Invalid Rows", 1);
                 return;
             }
 
             DateTime creationDate;
             if (!DateTime.TryParse(parsed["CreationDate"], out creationDate))
             {
-                context.CoreContext.IncrementCounter("AverageMapper", "InvalidCreationDates", 1);
+                context.CoreContext.IncrementCounter("Average Mapper", "Invalid Creation Dates", 1);
                 return;
             }
 

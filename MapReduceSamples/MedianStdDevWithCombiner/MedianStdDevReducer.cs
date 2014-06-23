@@ -24,6 +24,7 @@ namespace MedianStdDevWithCombiner
                     commentLengthCounts[data.Value] += data.Count;
             }
 
+            // calculate median
             double median = 0;
             var medianIndex = totalComments / 2;
             long previousComments = 0;
@@ -43,9 +44,9 @@ namespace MedianStdDevWithCombiner
             }
 
             // calculate standard deviation
-            var mean = sum / totalComments;
+            var avg = sum / totalComments;
             var sumOfSquares = commentLengthCounts
-                .Sum(entry => (entry.Key - mean)*(entry.Key - mean)*entry.Value);
+                .Sum(entry => (entry.Key - avg)*(entry.Key - avg)*entry.Value);
             var stdDev = Math.Sqrt(sumOfSquares / (totalComments - 1));
 
             context.EmitKeyValue(

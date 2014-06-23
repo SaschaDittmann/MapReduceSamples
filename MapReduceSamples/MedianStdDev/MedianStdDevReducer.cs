@@ -14,7 +14,6 @@ namespace MedianStdDev
 
             var commentLengths = new List<float>();
 
-            // Iterate through all input values for this key
             foreach (var value in values.Select(float.Parse))
             {
                 commentLengths.Add(value);
@@ -24,6 +23,7 @@ namespace MedianStdDev
 
             commentLengths.Sort((x, y) => x.CompareTo(y));
 
+            // calculate median
             double median;
             if (count % 2 == 0)
             {
@@ -36,9 +36,9 @@ namespace MedianStdDev
             }
 
             // calculate standard deviation
-            var mean = sum / count;
+            var avg = sum / count;
             var sumOfSquares = commentLengths
-                .Sum(commentLength => (commentLength - mean)*(commentLength - mean));
+                .Sum(commentLength => (commentLength - avg)*(commentLength - avg));
             var stdDev = Math.Sqrt(sumOfSquares / (count - 1));
 
             context.EmitKeyValue(

@@ -12,14 +12,14 @@ namespace MinMaxCount
 
             if (parsed == null || !parsed.ContainsKey("CreationDate") || !parsed.ContainsKey("UserId"))
             {
-                context.CoreContext.IncrementCounter("MinMaxCountMapper", "InvalidRows", 1);
+                context.CoreContext.IncrementCounter("Min Max Count Mapper", "Invalid Rows", 1);
                 return;
             }
 
             DateTime creationDate;
             if (!DateTime.TryParse(parsed["CreationDate"], out creationDate))
             {
-                context.CoreContext.IncrementCounter("MinMaxCountMapper", "InvalidCreationDates", 1);
+                context.CoreContext.IncrementCounter("Min Max Count Mapper", "Invalid Creation Dates", 1);
                 return;
             }
 
