@@ -46,6 +46,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distinct", "Distinct\Distin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuredToHierarchical", "StructuredToHierarchical\StructuredToHierarchical.csproj", "{A78D62CC-B792-4941-904D-DEEF4D4ABB62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCount", "WordCount\WordCount.csproj", "{F51A2927-1106-4756-B835-CF1F2680F4D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,6 +110,10 @@ Global
 		{A78D62CC-B792-4941-904D-DEEF4D4ABB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A78D62CC-B792-4941-904D-DEEF4D4ABB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A78D62CC-B792-4941-904D-DEEF4D4ABB62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F51A2927-1106-4756-B835-CF1F2680F4D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F51A2927-1106-4756-B835-CF1F2680F4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F51A2927-1106-4756-B835-CF1F2680F4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F51A2927-1106-4756-B835-CF1F2680F4D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -126,5 +132,6 @@ Global
 		{72E7D9CB-237D-4065-BE1E-ED4E1508C91D} = {F97287C9-BC8E-4EB0-8503-994B708E373B}
 		{5D9D8070-7246-4AD0-B3BD-6C0AE4E4B480} = {F97287C9-BC8E-4EB0-8503-994B708E373B}
 		{A78D62CC-B792-4941-904D-DEEF4D4ABB62} = {97EC2B36-895F-4CA6-9436-96489288B049}
+		{F51A2927-1106-4756-B835-CF1F2680F4D4} = {5E3D955C-202D-4820-85C9-93F25AF8424B}
 	EndGlobalSection
 EndGlobal
